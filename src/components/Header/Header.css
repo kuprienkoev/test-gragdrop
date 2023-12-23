@@ -1,0 +1,36 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  height: 50px;
+  background-color: chocolate;
+  box-shadow: 0 0 4px 4px rgba(0, 0, 0, 0.25);
+  z-index: 1;
+}
+.header__logo {
+  font-size: 20px;
+  line-height: 1;
+  font-weight: 700px;
+  color: aliceblue;
+}
+.header__nav {
+  margin-left: auto;
+}
+.header__nav-list {
+  display: flex;
+  list-style-type: none;
+  color: aliceblue;
+}
+.header__nav-item {
+  font-size: 20px;
+  color: aliceblue;
+  line-height: 1;
+}
+
+.header__nav-item:nth-child(n + 2) {
+  margin-left: 20px;
+}

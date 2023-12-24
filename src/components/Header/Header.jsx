@@ -1,6 +1,8 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Header.css';
 const Header = () => {
+  const [isOpen, setIsOpen] = useState(false);
+
   return (
     <header className="header">
       <span className="header__logo">Logo1</span>

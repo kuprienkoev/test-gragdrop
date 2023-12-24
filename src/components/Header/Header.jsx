@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
-import { ReactComponent as Icon } from './menuIcon.svg';
+
 import './Header.css';
+import { MenuButton } from '../MenuButton/MenuButton.jsx';
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -16,12 +17,7 @@ const Header = () => {
           <li className="header__nav-item">Login</li>
         </ul>
       </nav>
-      <button
-        className="header__menu-button"
-        onClick={() => setIsOpen(!isOpen)}
-      >
-        <Icon />
-      </button>
+      <MenuButton isActive={isOpen} onClick={() => setIsOpen(!isOpen)} />
     </header>
   );
 };

@@ -28,7 +28,6 @@ const Main = () => {
 
   return (
     <div className="main">
-      <h1>sdfsdfsd</h1>
       <Accordion faqList={faqList} />
     </div>
   );

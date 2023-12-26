@@ -82,3 +82,24 @@ p {
 .file__list li:nth-child(n + 2) {
   margin-top: 4px;
 }
+
+.button-reset,
+.button-submit {
+  position: absolute;
+  bottom: 10px;
+  width: 90px;
+  padding: 5px;
+  border: 0;
+  cursor: pointer;
+  font-size: 14px;
+  color: aliceblue;
+}
+.button-reset {
+  left: 40px;
+  background-color: darksalmon;
+}
+.button-submit {
+  right: 40px;
+  margin-left: 30px;
+  background-color: darkseagreen;
+}

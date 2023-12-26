@@ -40,3 +40,18 @@
   font-size: 20px;
   color: darkslategray;
 }
+.qweshenIcom {
+  position: absolute;
+  right: 40px;
+  top: 50%;
+  display: block;
+  width: 30px;
+
+  color: rgb(20, 112, 81);
+  transition: rotate 0.3s;
+  transform: translateY(-50%);
+}
+.qweshenIcom.active {
+  transform: translateY(-50%) rotate(180deg);
+  color: brown;
+}

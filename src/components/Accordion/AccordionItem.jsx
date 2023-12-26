@@ -1,4 +1,5 @@
 import React, { useRef } from 'react';
+import { BsChevronDown } from 'react-icons/bs';
 
 const AccordionItem = ({ faqItem, onClick, isOpen, id }) => {
   const itemRef = useRef(null);
@@ -6,7 +7,9 @@ const AccordionItem = ({ faqItem, onClick, isOpen, id }) => {
     <li className="accordion-item" key={id}>
       <button className="accordion-header" onClick={() => onClick()}>
         {faqItem.q}
+        <BsChevronDown className={`qweshenIcom ${isOpen ? 'active' : ''}`} />
       </button>
+
       <div
         className="accordion-collaps"
         style={

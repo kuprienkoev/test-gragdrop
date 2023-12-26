@@ -1,5 +1,6 @@
 import React from 'react';
 import Accordion from '../Accordion/Accordion';
+import DragDrop from '../DragDrop/DragDrop';
 import './Main.css';
 
 const Main = () => {
@@ -30,6 +31,7 @@ const Main = () => {
     <div className="main">
       <h1>sdfsdfsd</h1>
       <Accordion faqList={faqList} />
+      <DragDrop />
     </div>
   );
 };

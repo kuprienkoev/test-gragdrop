@@ -48,7 +48,7 @@
   width: 30px;
 
   color: rgb(20, 112, 81);
-  transition: rotate 0.3s;
+
   transform: translateY(-50%);
 }
 .qweshenIcom.active {

@@ -1,5 +1,6 @@
 import React from 'react';
 import Accordion from '../Accordion/Accordion';
+import DaDataAdress from '../DaDataAdress/DaDataAdress';
 import DragDrop from '../DragDrop/DragDrop';
 import './Main.css';
 
@@ -29,8 +30,9 @@ const Main = () => {
 
   return (
     <div className="main">
-      <Accordion faqList={faqList} />
-      <DragDrop />
+      {/*       <Accordion faqList={faqList} />
+      <DragDrop /> */}
+      <DaDataAdress />
     </div>
   );
 };
